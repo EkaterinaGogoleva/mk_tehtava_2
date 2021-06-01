@@ -1,0 +1,17 @@
+Sovellus on säätietoja esittävä sovellus jolla on oma serveri
+server.js. Public-kansiossa on sovelluksen frontend jota serveri
+servaa. npm i, node server
+Serveri lähettää datan frontend+sovellukselle. Data eli säätiedot
+voitaisiin hakea myös ulkopuolisesta web-API-säätietoja.
+
+Sovelluksessa on valmiina <meta viewport..> ja responsiviseet tyylit
+
+Soveluksesta tehdään PWA-sovellus seuraavissa vaiheissa:
+1. Tehdään manifest.json
+2.Läitettiin IoS-ää eli safaria varten meta-tagit ja ikonilinkit
+3.Laitetaan service-worker toimimaan ja tehdään yksinkertainen offline-sivu jonnee mennään
+jo internettia ei ole
+4. Laitetaan sovelluksen kuvat ja tiedostot staattiseen cacheen, jolloin sovellus toimii 
+offline-tilassa aivan kuin verkkoyhtiys olisi toiminnassa.
+Tehdään dynaaminen cache, josta tulee muutuvat säätiedot. (когда нет интернетаб показывается старые данные)
+5. Cделали кнопку для загрузки страницы
